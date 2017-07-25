@@ -15,7 +15,5 @@
 		"silverstripe/framework": "3.*",
 		"silverstripe/cms": "3.*",
 		"betterbrief/silverstripe-googlemapfield": "*"
-	},
-	"replace": {"silverstripe/silverstripe-contactpage": "*"}
-	
+	}	
 }
