@@ -1,3 +1,1 @@
- <?php
-
-define('SILVERSTRIPE_CONTACTPAGE',basename(dirname(__FILE__)));
+<?php
