@@ -5,8 +5,8 @@ class ContactForm extends BootstrapAjaxForm {
 	function __construct($controller, $name) {
 	
 		$fields = new FieldList(
-			TextField::create("Name")->addExtraClass('span2')->setTitle(_t("ContactForm.NAME", "Nombre")),
-			EmailField::create("Email")->addExtraClass('span2')->setTitle(_t("ContactForm.EMAIL", "Email")),
+			TextField::create("Name")->addExtraClass('span1')->setTitle(_t("ContactForm.NAME", "Nombre")),
+			EmailField::create("Email")->addExtraClass('span1')->setTitle(_t("ContactForm.EMAIL", "Email")),
 			TextareaField::create("Message")->addExtraClass('span4')->setTitle(_t("ContactForm.MESSAGE", "Mensaje")),
 			HiddenField::create('SecurityID')->setValue(Session::get('SecurityID'))
 		);
