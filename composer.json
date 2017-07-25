@@ -1,0 +1,21 @@
+{
+	"name": "jochenguelden/silverstripe-contactpage",
+	"description": "Silverstripe ContactPage",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "ContactPage"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jochen Gülden",
+			"email": "jochen@guelden.org"
+		}
+	],
+	"require":
+	{
+		"silverstripe/framework": "3.*",
+		"silverstripe/cms": "3.*",
+		"betterbrief/silverstripe-googlemapfield": "*"
+	},
+	"replace": {"silverstripe/silverstripe-contactpage": "*"}
+	
+}
